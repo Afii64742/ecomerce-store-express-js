@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+//env configuration
 dotenv.config();
-
 // importing routes
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/users");
